@@ -1,3 +1,5 @@
+export const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "/turnami-landing";
+
 export const site = {
   name: "turnami",
   claim: "I turni, finalmente, girano da soli.",

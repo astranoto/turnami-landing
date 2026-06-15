@@ -1,8 +1,9 @@
+import Link from 'next/link';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import CTA from './components/CTA';
 import CalendarMockup from './components/CalendarMockup';
-import { site, testimonials } from './lib/site';
+import { site, testimonials, basePath } from './lib/site';
 
 export default function HomePage() {
   return (
@@ -16,7 +17,7 @@ export default function HomePage() {
               <h1>{site.claim}</h1>
               <p className="lead">Turnami aiuta ristoranti, locali, agenzie di servizi e piccole squadre operative a creare calendari, assegnare ruoli, pubblicare turni e controllare le ore senza perdere tempo tra Excel e chat.</p>
               <div className="hero-actions">
-                <a className="btn btn-primary" href="/contact/">Richiedi demo</a>
+                <Link className="btn btn-primary" href="/contact/">Richiedi demo</Link>
                 <a className="btn btn-secondary" href="#funzionalita">Guarda come funziona</a>
               </div>
               <p className="trust-line">Niente file infiniti. Niente screenshot da ricostruire. Niente turni persi nei messaggi.</p>
@@ -79,7 +80,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="product-panel">
-              <img src="/assets/turnami-mark.png" alt="Icona Turnami" />
+              <img src={`${basePath}/assets/turnami-mark.png`} alt="Icona Turnami" />
               <div className="panel-card one"><strong>128 ore pianificate</strong><span>Riepilogo mensile aggiornato automaticamente.</span></div>
               <div className="panel-card two"><strong>3 turni in bozza</strong><span>Pronti da controllare prima della pubblicazione.</span></div>
               <div className="panel-card three"><strong>2 sedi filtrate</strong><span>Vista pulita per responsabili e gestori.</span></div>

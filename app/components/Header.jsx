@@ -1,12 +1,12 @@
 import Link from 'next/link';
-import { navLinks, site } from '../lib/site';
+import { navLinks, site, basePath } from '../lib/site';
 
 export default function Header() {
   return (
     <header className="site-header">
       <div className="container nav-shell">
         <Link className="brand" href="/" aria-label="Turnami homepage">
-          <img src="/assets/turnami-mark.png" alt="" className="brand-mark" />
+          <img src={`${basePath}/assets/turnami-mark.png`} alt="" className="brand-mark" />
           <span>turnami</span>
         </Link>
         <nav className="desktop-nav" aria-label="Navigazione principale">
