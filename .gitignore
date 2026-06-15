@@ -4,3 +4,5 @@ out
 .env.local
 .DS_Store
 *:Zone.Identifier
+
+deploy.md
