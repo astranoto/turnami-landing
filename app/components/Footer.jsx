@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { site } from '../lib/site';
+import { site, basePath } from '../lib/site';
 
 export default function Footer() {
   return (
@@ -7,10 +7,10 @@ export default function Footer() {
       <div className="container footer-grid">
         <div>
           <Link className="brand footer-brand" href="/">
-            <img src="/assets/turnami-mark.png" alt="" className="brand-mark" />
+            <img src={`${basePath}/assets/turnami-mark.png`} alt="" className="brand-mark" />
             <span>turnami</span>
           </Link>
-          <p className="muted">La landing è statica e separata dall'app operativa. Il login punta a <strong>app.turnami.it</strong>.</p>
+          <p className="muted">Made with love by Astranoto</p>
         </div>
         <div>
           <h4>Prodotto</h4>
