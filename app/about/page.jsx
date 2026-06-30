@@ -29,7 +29,7 @@ export default function AboutPage() {
               <a className="btn btn-primary" href={site.astranotoUrl} target="_blank" rel="noreferrer">Scopri Astranoto</a>
             </div>
             <div className="product-panel">
-              <img src={`${basePath}/assets/turnami-mark.png`} alt="Icona Turnami" />
+              <img src={`assets/turnami-mark.png`} alt="Icona Turnami" />
               <div className="panel-card one"><strong>Software concreto</strong><span>Strumenti semplici, pensati per risolvere problemi reali.</span></div>
               <div className="panel-card two"><strong>Design operativo</strong><span>Interfacce chiare per persone che devono lavorare velocemente.</span></div>
               <div className="panel-card three"><strong>Processi leggibili</strong><span>Meno confusione, più controllo, più autonomia.</span></div>

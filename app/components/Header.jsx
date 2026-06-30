@@ -6,7 +6,7 @@ export default function Header() {
     <header className="site-header">
       <div className="container nav-shell">
         <Link className="brand" href="/" aria-label="Turnami homepage">
-          <img src={`${basePath}/assets/turnami-mark.png`} alt="" className="brand-mark" />
+          <img src={`assets/turnami-mark.png`} alt="" className="brand-mark" />
           <span>turnami</span>
         </Link>
         <nav className="desktop-nav" aria-label="Navigazione principale">

@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container footer-grid">
         <div>
           <Link className="brand footer-brand" href="/">
-            <img src={`${basePath}/assets/turnami-mark.png`} alt="" className="brand-mark" />
+            <img src={`assets/turnami-mark.png`} alt="" className="brand-mark" />
             <span>turnami</span>
           </Link>
           <p className="muted">Made with love by Astranoto</p>

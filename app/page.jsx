@@ -80,7 +80,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="product-panel">
-              <img src={`${basePath}/assets/turnami-mark.png`} alt="Icona Turnami" />
+              <img src={`assets/turnami-mark.png`} alt="Icona Turnami" />
               <div className="panel-card one"><strong>128 ore pianificate</strong><span>Riepilogo mensile aggiornato automaticamente.</span></div>
               <div className="panel-card two"><strong>3 turni in bozza</strong><span>Pronti da controllare prima della pubblicazione.</span></div>
               <div className="panel-card three"><strong>2 sedi filtrate</strong><span>Vista pulita per responsabili e gestori.</span></div>
