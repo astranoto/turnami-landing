@@ -4,8 +4,9 @@ export const site = {
   name: "turnami",
   claim: "I turni, finalmente, girano da soli.",
   appUrl:
-    process.env.NEXT_PUBLIC_APP_URL ||
-    "https://turnami-web-745994553366.europe-west1.run.app",
+    // process.env.NEXT_PUBLIC_APP_URL ||
+    // "https://turnami-web-745994553366.europe-west1.run.app",
+    process.env.NEXT_PUBLIC_APP_URL || "https://app.turnami.live",
   contactEmail: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "info@astranoto.com",
   astranotoUrl: "https://astranoto.com/",
 };
