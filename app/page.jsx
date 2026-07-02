@@ -88,7 +88,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className="section">
+        <section className="section" id="recensioni">
           <div className="container">
             <div className="section-head">
               <p className="eyebrow">Esperienze utenti</p>

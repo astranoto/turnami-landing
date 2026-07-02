@@ -13,9 +13,10 @@ export const site = {
 
 export const navLinks = [
   { href: "/#funzionalita", label: "Funzionalità" },
-  { href: "/pricing/", label: "Pricing" },
-  { href: "/about/", label: "Chi siamo" },
-  { href: "/contact/", label: "Demo" },
+  { href: "/#recensioni",   label: "Recensioni" },
+  { href: "/risorse/",      label: "Risorse" },
+  { href: "/pricing/",      label: "Prezzi" },
+  { href: "/contact/",      label: "Demo" },
 ];
 
 export const testimonials = [
