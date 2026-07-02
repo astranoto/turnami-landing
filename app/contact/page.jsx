@@ -16,26 +16,22 @@ export default function ContactPage() {
       <main>
         <section className="page-hero">
           <div className="container">
-            <p className="eyebrow">Richiedi demo</p>
-            <h1>Vediamo se Turnami può far girare meglio i tuoi turni.</h1>
-            <p className="lead">Scrivici quante persone devi gestire, quante sedi hai e come organizzi oggi i turni. Ti rispondiamo con una proposta semplice.</p>
-          </div>
+                <p className="eyebrow">Richiedi demo</p>
+                <h1>Vediamo se Turnami può far girare meglio i tuoi turni.</h1>
+                <p className="lead">Scrivici quante persone devi gestire, quante sedi hai e come organizzi oggi i turni. Ti rispondiamo con una proposta semplice.</p>
+            </div>
         </section>
         <section className="section">
           <div className="container contact-grid">
             <aside className="contact-box">
-              <h2>Contatto diretto</h2>
-              <p className="muted">Questa pagina è statica: non salva dati e non invia moduli lato server. Il bottone apre una email precompilata.</p>
-              <a className="btn btn-primary" href={`mailto:${site.contactEmail}?subject=${subject}&body=${body}`}>Scrivi per una demo</a>
+              <h2>Scrivici via mail</h2>
+              <p className="muted">Ti risponderemo con una proposta semplice e senza impegno.</p>
+              <a className="btn btn-primary" href={`mailto:${site.contactEmail}?subject=${subject}&body=${body}`}>Via mail</a>
             </aside>
             <div className="contact-box">
-              <h2>Informazioni utili</h2>
-              <div className="fake-form" aria-label="Campi suggeriti da inserire nella mail">
-                <div className="fake-input">Nome attività</div>
-                <div className="fake-input">Numero sedi</div>
-                <div className="fake-input">Numero persone da gestire</div>
-                <div className="fake-area">Problema principale: Excel, WhatsApp, cambi turno, ore, più sedi...</div>
-              </div>
+              <h2>Scrivici su WhatsApp</h2>
+              <p className="muted">Preferisci WhatsApp? Mandaci un messaggio diretto e ti rispondiamo in giornata.</p>
+              <a className="btn btn-primary" href="https://wa.me/INSERISCI_NUMERO" target="_blank" rel="noopener noreferrer">Via WhatsApp</a>
             </div>
           </div>
         </section>
