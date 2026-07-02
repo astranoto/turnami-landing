@@ -37,6 +37,24 @@ export const testimonials = [
     name: "Marta",
     role: "responsabile locale",
   },
+  {
+    quote:
+      "Con gli intermittenti avevamo sempre paura di perderci qualcosa tra turni, ore e comunicazioni. Ora è tutto più chiaro e controllabile.",
+    name: "Luca",
+    role: "gestore pizzeria",
+  },
+  {
+    quote:
+      "Prima ogni modifica diventava una catena di messaggi. Adesso aggiorno il turno, lo condivido e il team vede subito cosa cambia.",
+    name: "Elena",
+    role: "responsabile eventi",
+  },
+  {
+    quote:
+      "Ci serviva qualcosa di semplice, non un gestionale enorme e dai costi contenuti. Turni, persone e ore: finalmente abbiamo tutto dove serve.",
+    name: "Davide",
+    role: "titolare bar",
+  },
 ];
 
 export const pricingPlans = [
