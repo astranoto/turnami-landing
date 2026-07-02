@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { navLinks, site, basePath } from '../lib/site';
+import MobileMenu from './MobileMenu';
 
 export default function Header() {
   return (
@@ -14,7 +15,8 @@ export default function Header() {
             <Link key={link.href} href={link.href}>{link.label}</Link>
           ))}
         </nav>
-        <a className="btn btn-dark btn-small" href={site.appUrl}>Accedi</a>
+        <a className="btn btn-dark btn-small desktop-only" href={site.appUrl}>Accedi</a>
+        <MobileMenu />
       </div>
     </header>
   );
