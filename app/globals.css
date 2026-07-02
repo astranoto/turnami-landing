@@ -544,6 +544,7 @@ ul.clean li::before { content: '✓'; color: var(--blue); font-weight: 900; }
   margin-top: 8px;
   width: 100%;
   font-size: 15px;
+  color: white;
 }
 
 @keyframes fadeDown {
