@@ -91,7 +91,7 @@ export default function HomePage() {
         <section className="section" id="recensioni">
           <div className="container">
             <div className="section-head">
-              <p className="eyebrow">Esperienze utenti</p>
+              <p className="eyebrow">Esperienze</p>
               <h2>Pensato per chi i turni li deve fare davvero.</h2>
             </div>
             <div className="testimonial-grid">

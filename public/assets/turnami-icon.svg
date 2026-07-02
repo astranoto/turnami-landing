@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Turnami icon</title>
+  <desc id="desc">Icona Turnami senza scritta, con freccia circolare e punti su sfondo sfumato.</desc>
+  <defs>
+    <linearGradient id="turnamiGradient" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1670E3"/>
+      <stop offset="45%" stop-color="#32A2D5"/>
+      <stop offset="100%" stop-color="#40D3CA"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" rx="122" fill="url(#turnamiGradient)"/>
+  <path d="M256 390C165.426 390 92 316.574 92 226C92 135.426 165.426 62 256 62C321.939 62 379.438 100.934 405.559 157.201" stroke="white" stroke-width="44" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M405 111L414 183L343 173" stroke="white" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="331" cy="402" r="26" fill="#84F4DF"/>
+  <circle cx="391" cy="348" r="23" fill="#84F4DF"/>
+  <circle cx="417" cy="271" r="20" fill="#84F4DF"/>
+</svg>

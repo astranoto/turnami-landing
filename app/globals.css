@@ -355,6 +355,13 @@ h3 { font-size: 24px; letter-spacing: -0.035em; margin-bottom: 12px; }
 .panel-card.three { right: 44px; bottom: 44px; width: 38%; }
 .panel-card strong { display: block; margin-bottom: 6px; }
 .panel-card span { color: var(--muted); font-size: 14px; }
+/* 
+#recensioni {
+  background:
+    radial-gradient(circle at 15% 30%, rgba(20, 118, 242, 0.11), transparent 28rem),
+    radial-gradient(circle at 86% 20%, rgba(51, 213, 203, 0.16), transparent 30rem),
+    linear-gradient(180deg, #ffffff 0%, #f8fbff 62%, #ffffff 100%);
+} */
 
 .testimonial-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .quote-card {

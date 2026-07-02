@@ -6,12 +6,12 @@ export const metadata = {
     default: 'Turnami — Gestione turni semplice e veloce',
     template: '%s | Turnami'
   },
-  description: 'Turnami è la landing statica della web app per creare calendari, assegnare ruoli, pubblicare turni e controllare le ore del team.',
-  metadataBase: new URL('https://turnami.it'),
+  description: 'Turnami ti aiuta a gestire turni e contratti intermittenti in un’unica web app, senza perderti tra Excel, WhatsApp e conteggi a mano.',
+  metadataBase: new URL('https://turnami.live'),
   openGraph: {
     title: 'Turnami — I turni, finalmente, girano da soli.',
     description: 'Calendario, ruoli, sedi, ore, pubblicazione e riepiloghi in un unico posto.',
-    url: 'https://turnami.it',
+    url: 'https://turnami.live',
     siteName: 'Turnami',
     images: [{ url: '/assets/turnami-logo-stacked.png', width: 1200, height: 900 }],
     locale: 'it_IT',

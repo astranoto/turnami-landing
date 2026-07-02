@@ -15,7 +15,9 @@ export default function Footer() {
         <div>
           <h4>Prodotto</h4>
           <Link href="/#funzionalita">Funzionalità</Link>
-          <Link href="/pricing/">Pricing</Link>
+          <Link href="/#recensioni">Recensioni</Link>
+          <Link href="/risorse/">Risorse</Link>
+          <Link href="/pricing/">Prezzi</Link>
           <Link href="/contact/">Richiedi demo</Link>
         </div>
         <div>
