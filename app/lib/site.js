@@ -2,7 +2,7 @@ export const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "/turnami-landing";
 
 export const site = {
   name: "turnami",
-  claim: "I turni, finalmente, girano da soli.",
+  claim: "Smetti di rincorrere turni e contratti a chiamata.",
   appUrl:
     // process.env.NEXT_PUBLIC_APP_URL ||
     // "https://turnami-web-745994553366.europe-west1.run.app",
@@ -13,10 +13,10 @@ export const site = {
 
 export const navLinks = [
   { href: "/#funzionalita", label: "Funzionalità" },
-  { href: "/#recensioni",   label: "Recensioni" },
-  { href: "/risorse/",      label: "Risorse" },
-  { href: "/pricing/",      label: "Prezzi" },
-  { href: "/contact/",      label: "Demo" },
+  { href: "/#recensioni", label: "Recensioni" },
+  { href: "/risorse/", label: "Risorse" },
+  { href: "/pricing/", label: "Prezzi" },
+  { href: "/contact/", label: "Demo" },
 ];
 
 export const testimonials = [
