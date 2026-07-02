@@ -355,9 +355,9 @@ h3 { font-size: 24px; letter-spacing: -0.035em; margin-bottom: 12px; }
   padding: 18px;
   box-shadow: 0 18px 40px rgba(16,42,86,.12);
 }
-.panel-card.one { left: 28px; bottom: 36px; width: 56%; }
-.panel-card.two { right: 28px; top: 130px; width: 48%; }
-.panel-card.three { right: 44px; bottom: 44px; width: 38%; }
+.panel-card.one { right: 28px; top: 20px; width: 52%; }
+.panel-card.two { left: 28px; top: 200px; width: 48%; }
+.panel-card.three { right: 44px; bottom: 36px; width: 44%; }
 .panel-card strong { display: block; margin-bottom: 6px; }
 .panel-card span { color: var(--muted); font-size: 14px; }
 /* 
