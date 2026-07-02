@@ -572,10 +572,17 @@ ul.clean li::before { content: '✓'; color: var(--blue); font-weight: 900; }
   .btn-small { min-height: 36px; padding: 0 14px; }
   .hero-actions, .cta-actions { width: 100%; }
   .hero-actions .btn, .cta-actions .btn { width: 100%; }
-  .calendar-grid, .card-grid, .footer-grid { grid-template-columns: 1fr; }
-  .stats-row { flex-direction: column; align-items: stretch; }
+  .card-grid, .footer-grid { grid-template-columns: 1fr; }
   .section { padding: 52px 0; }
   .mockup-card, .content-card, .cta-card { padding: 22px; border-radius: 26px; }
+  .calendar-grid { grid-template-columns: repeat(3, 1fr); gap: 7px; }
+  .day-card { min-height: auto; padding: 10px; border-radius: 16px; }
+  .day-head { margin-bottom: 8px; }
+  .day-head strong { font-size: 17px; }
+  .stats-row { gap: 7px; }
+  .stats-row div { padding: 10px; border-radius: 14px; }
+  .stats-row strong { font-size: 18px; }
+  .shift { padding: 5px 7px; margin-top: 5px; font-size: 11px; }
   .product-panel { min-height: 560px; padding: 20px; }
   .panel-card.one, .panel-card.two, .panel-card.three { position: static; width: auto; margin-top: 16px; }
 }
