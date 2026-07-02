@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { site } from '../lib/site';
 
-export default function CTA({ title = 'Smetti di inseguire i turni.', text = 'Porta calendario, persone, ruoli e ore in un unico posto. Turnami è pensato per squadre piccole, operative e veloci.' }) {
+export default function CTA({ title = 'I turni, finalmente, girano da soli.', text = 'Turnami ti aiuta a gestire turni e contratti intermittenti in un’unica web app, senza perderti tra Excel, WhatsApp e conteggi a mano.' }) {
   return (
     <section className="section cta-section">
       <div className="container">
