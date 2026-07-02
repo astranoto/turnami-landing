@@ -168,8 +168,13 @@ h3 { font-size: 24px; letter-spacing: -0.035em; margin-bottom: 12px; }
 
 .trust-line {
   margin-top: 24px;
-  color: var(--muted);
-  font-size: 14px;
+  color: var(--ink);
+  font-size: 19px;
+  /* line-height: 1.5; */
+}
+
+.trust-line strong {
+  font-weight: 700;
 }
 
 .hero-badges {

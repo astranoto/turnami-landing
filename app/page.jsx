@@ -13,21 +13,21 @@ export default function HomePage() {
         <section className="hero">
           <div className="container hero-grid">
             <div>
-              <p className="eyebrow">Web app mobile-first per gestire i turni</p>
+              <p className="eyebrow">Gestisci turni, deleghe e intermittenti, facilmente</p>
               <h1>{site.claim}</h1>
               <p className="lead">Turnami aiuta ristoranti, locali, agenzie di servizi e piccole squadre operative a creare calendari, assegnare ruoli, pubblicare turni e controllare le ore senza perdere tempo tra Excel e chat.</p>
               <div className="hero-actions">
                 <Link className="btn btn-primary" href="/contact/">Richiedi demo</Link>
                 <a className="btn btn-secondary" href="#funzionalita">Guarda come funziona</a>
               </div>
-              <p className="trust-line">Niente file infiniti. Niente screenshot da ricostruire. Niente turni persi nei messaggi.</p>
-              <div className="hero-badges" aria-label="Punti principali">
+              <p className="trust-line "><strong>Niente file. Niente screenshot. Niente turni persi nei messaggi.</strong></p>
+              {/* <div className="hero-badges" aria-label="Punti principali">
                 <span className="soft-badge">Calendario</span>
                 <span className="soft-badge">Ruoli</span>
                 <span className="soft-badge">Ore</span>
                 <span className="soft-badge">Sedi</span>
                 <span className="soft-badge">Export</span>
-              </div>
+              </div> */}
             </div>
             <div className="mockup-wrap">
               <CalendarMockup />
