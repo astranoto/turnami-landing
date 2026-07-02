@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
+  output: 'export',
   //   basePath: '/turnami-landing',
   //   trailingSlash: true,
   images: {
